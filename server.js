@@ -14,6 +14,7 @@ const db = require('./db')
 const PersonRoutes = require('../01/routes/Personroutes')
 app.use('/person',PersonRoutes);
 
+// comment added to know its linked with git and being tracked 
 
 app.get('/',(req,res)=>{
   res.send("OM NAMAH SHIVAY My name is MOHIT ")
