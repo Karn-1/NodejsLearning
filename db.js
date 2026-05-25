@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 // MongoDB connection URL
 const mongoURL = 'mongodb://localhost:27017/hotels';
+// const mongoURL = 'mongodb+srv://mohitdb:<db_password>@cluster0.bwpxjc5.mongodb.net/'
 
 // Connect to MongoDB
 mongoose.connect(mongoURL);
